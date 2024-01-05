@@ -1,0 +1,21 @@
+/* #640093  and #2D436F*/
+
+.primarycolor {
+  /* background: rgb(45, 67, 111); */
+  background: linear-gradient(
+    0deg,
+    rgba(45, 67, 111, 1) 0%,
+    rgba(100, 0, 147, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+.mainbg {
+  background: linear-gradient(
+    0deg,
+    rgba(45, 67, 111, 0.02) 0%,
+    rgba(100, 0, 147, 0.02) 100%
+  );
+}
